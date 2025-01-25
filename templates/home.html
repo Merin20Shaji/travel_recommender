@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Guide</title>
+    <link rel="stylesheet" href="{{ cs_url }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                
+                <li><a href="{{ url_for('logout') }}" class="btn">Logout</a></li>
+            </ul>
+        </nav>
+        <h1>Travel Guide</h1>
+        <p>Explore the best destinations</p>
+    </header>
+    <main>
+        <h2>Select a City:</h2>
+        <div class="city-list">
+            {% for city, details in cities.items() %}
+            <div class="city-card">
+                <a href="/city/{{ city }}">
+                    <img src="{{ url_for('static', filename='images/' + details.image) }}" alt="{{ city }} Image">
+                    <h3>{{ city }}</h3>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ city }} Travel Guide</title>
+    <link rel="stylesheet" href="{{ cs_url }}">
+</head>
+<body>
+    <header>
+        <h1>{{ city }} Travel Guide</h1>
+    </header>
+    <main>
+        <img src="{{ url_for('static', filename='images/' + data.image) }}" alt="{{ city }} Image" class="city-image">
+        <h2>Top Activities:</h2>
+        <ul>
+            {% for activity in data.activities %}
+            <li>{{ activity }}</li>
+            {% endfor %}
+        </ul>
+
+        <h2>Places to Visit:</h2>
+        <ul>
+            {% for place in data.places_to_visit %}
+            <li>{{ place }}</li>
+            {% endfor %}
+        </ul>
+
+        <h2>Famous Food Spots:</h2>
+        <ul>
+            {% for spot in data.famous_food_spots %}
+            <li>{{ spot }}</li>
+            {% endfor %}
+        </ul>
+    
+    </main>
+</body>
+</html>
