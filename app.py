@@ -19,16 +19,29 @@ travel_data = {
     "Paris": {
         "image": "paris.jpg",
         "activities": ["Eiffel Tower visit", "Seine River Cruise"],
-        "places_to_visit": ["Louvre Museum", "Notre-Dame"],
-        "famous_food_spots": ["Le Meurice", "Pierre Hermé"]
+       "places_to_visit": [
+            {"name": "Louvre Museum", "map_link": "https://www.google.com/maps?q=Louvre+Museum"},
+            {"name": "Notre-Dame", "map_link": "https://www.google.com/maps?q=Notre+Dame"}
+        ],
+        "famous_food_spots": [
+            {"name": "Le Meurice", "map_link": "https://www.google.com/maps?q=Le+Meurice+Paris"},
+            {"name": "Pierre Hermé", "map_link": "https://www.google.com/maps?q=Pierre+Hermé+Paris"}
+        ]
     },
     "Tokyo": {
         "image": "tokyo.jpeg",
         "activities": ["Senso-ji Temple tour", "Tsukiji Fish Market visit"],
-        "places_to_visit": ["Tokyo Skytree", "Shibuya Crossing"],
-        "famous_food_spots": ["Ichiran Ramen", "Sushi Dai"]
+       "places_to_visit": [
+            {"name": "Tokyo Skytree", "map_link": "https://www.google.com/maps?q=Tokyo+Skytree"},
+            {"name": "Shibuya Crossing", "map_link": "https://www.google.com/maps?q=Shibuya+Crossing"}
+        ],
+        "famous_food_spots": [
+            {"name": "Ichiran Ramen", "map_link": "https://www.google.com/maps?q=Ichiran+Ramen+Tokyo"},
+            {"name": "Sushi Dai", "map_link": "https://www.google.com/maps?q=Sushi+Dai+Tokyo"}
+        ]
     }
 }
+
 
 # Default Route (Login page)
 @app.route('/', methods=['GET', 'POST'])

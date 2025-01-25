@@ -22,17 +22,21 @@
         <h2>Places to Visit:</h2>
         <ul>
             {% for place in data.places_to_visit %}
-            <li>{{ place }}</li>
+            <li>
+                <a href="{{ place.map_link }}" target="_blank">{{ place.name }}</a>
+            </li>
             {% endfor %}
         </ul>
 
         <h2>Famous Food Spots:</h2>
         <ul>
             {% for spot in data.famous_food_spots %}
-            <li>{{ spot }}</li>
+            <li>
+                <a href="{{ spot.map_link }}" target="_blank">{{ spot.name }}</a>
+            </li>
             {% endfor %}
         </ul>
-    
+        
     </main>
 </body>
 </html>
