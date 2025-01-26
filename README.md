@@ -44,15 +44,18 @@ python app.py
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](https://imgur.com/YmNk5Ln)
-*Add caption explaining what this shows*
+Login Page(https://imgur.com/YmNk5Ln)
 
 
-![Sc!](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+Home Page(https://imgur.com/cfulzE2)
+*Shows the different cities to visit*
+
+City(https://imgur.com/ZL1vdP1)
+*Provide different spots in the particular city*
+
+Google Map (https://imgur.com/48l332P)
+*Redirect to the google map*
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -82,8 +85,8 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://imgur.com/OPbL3U6
+*It shows our website in detail*
 
 # Additional Demos
 [Add any extra demo materials/links]
