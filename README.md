@@ -1,100 +1,20 @@
 # TravelBud🎯
 
+🌍 Project Description
 
-## Basic Details
-### Team Name: Tech Minions
+Our project aims to provide an all-in-one travel guide that offers recommendations for the best tourist spots and food stops, along with Google Maps integration for easy navigation — making travel more convenient and enjoyable.
 
+🧭 Problem Statement
 
-### Team Members
-- Member 1: Nelda Dixon - Muthoot Institute of Technology and Science
-- Member 2: Merin Shaji - Muthoot Institute of Technology and Science
-- Member 3: Riona Mathew - Muthoot Institute of Technology and Science
+Travelers often face the hassle of switching between multiple apps to access different travel-related facilities such as finding attractions, restaurants, and directions. This fragmented experience makes trip planning time-consuming and inefficient.
 
-### Hosted Project Link
-[mention your project hosted project link here]
+💡 Solution
 
-### Project Description
-Our project aims at providing an all in one travel guide feature complete with recommendations of the best places and food stops to visit, along with google maps directing the way, making it more travel friendly.
-
-### The Problem statement
-It's usually a hassle for people to go through multiple apps at once to access differnt travel facilities.
-
-### The Solution
-Our project provides a complete platform to meet all travel requirements.
+Our project delivers a unified platform that combines all essential travel features in one place. Users can explore recommended destinations, discover local food spots, and get turn-by-turn navigation seamlessly — ensuring a smoother and more enjoyable travel experience.
 
 ## Technical Details
 ### Technologies/Components Used
-For Software:
 - HTML
 - css
 - python Flask
-- MySQL
-
-
-
-### Implementation
-For Software:
-# Installation
-pip install flask flask-mysqldb
-
-# Run
-python app.py
-
-### Project Documentation
-For Software:
-
-# Screenshots (Add at least 3)
-Login Page(https://imgur.com/YmNk5Ln)
-
-
-
-Home Page(https://imgur.com/cfulzE2)
-*Shows the different cities to visit*
-
-City(https://imgur.com/ZL1vdP1)
-*Provide different spots in the particular city*
-
-Google Map (https://imgur.com/48l332P)
-*Redirect to the google map*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Team](Add photo of your team here)
-
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-https://imgur.com/OPbL3U6
-*It shows our website in detail*
-
-# Additional Demos
-[Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
-
----
-Made with ❤️ at TinkerHub
+- API Integration: Google Maps API
